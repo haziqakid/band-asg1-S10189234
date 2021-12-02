@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href=" https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- scroll btn-->
+    <title>Website</title>
+
+
+<style>
+    #btnScrollToTop {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: crimson;
+        box-shadow: 0 0 10px rgba(0,0,0, 0.25);
+        color: white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    #btnScrollToTop:active {
+        background-color: grey;
+    }
+</style>
+</head>
+<body>
+    <h1></h1>
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upwards</i>
+    </button>
+<!--Header-->
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="#hero"><h1><span>H</span>aziq <span>A</span>kid</h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="#hero" data-after="Home">Home</a></li>
+                    <li><a href="#merchandises" data-after="Merchandises">Merchandise</a></li>
+                    <li><a href="#albums" data-after="Albums">Albums</a></li>
+                    <li><a href="#about" data-after="About">About</a></li>
+                    <li><a href="#contact" data-after="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End of Header-->
+    
+
+    <!--Cover Page -->
+    <section id="hero">
+    <div class="hero container">
+        <div>
+            <h1>Hello, <span></span></h1>
+            <h1>fans <span></span></h1>
+            <h1>of A7X<span></span></h1>
+            <a href="#merchandises" type="button" class="cta">Enter</a>
+        </div>
+    </div>
+</section>
+    <!--End of Cover Page-->
+
+<!-- Merchandise Section-->
+<section id="merchandises">
+    <div class="merchandises container">
+        <div class="merchandise-top">
+            <h1 class="section-title">Merch<span>an</span>dise</h1>
+            <p>We have been working tirelessly to provide you with the best experience possible. We couldn't be more excited for this adventure and for you to be a part of it!</p>
+            </div>
+            <div class="merchandise-bottom">
+                <div class="merchandise-item">
+                    <div class="icon"><img src="./images/merch1.jpg"/></div>
+                    <!--<h2>Merchandise Design</h2> -->
+                    <h2>Classic Concert Tee</h2>
+                    <p>Avenged Sevenfold Limited Edition Cotton T-Shirt (unisex)</p>
+                    <h3>Choose size:</h3>
+                    <div class="select">
+                        <select name="format" id="format">
+                        <option selected disabled>Size</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    </div>
+                    <a href="#"class="cta">Add to cart</a>
+                </div>
+                <div class="merchandise-item">
+                    <div class="icon"><img src="./images/merch5.jpeg"/></div>
+                    <h2>Women's Crop Top</h2>
+                    <p>Women's Crop Top Avenged Sevenfold (Cotton)</p>
+                    <h3>Choose size:</h3>
+                    <div class="select">
+                        <select name="format" id="format">
+                        <option selected disabled>Size</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    </div>
+                    
+                    <a href="#"class="cta">Add to cart</a>
+                </div>
+                <div class="merchandise-item">
+                    <div class="icon"><img src="./images/merch3.jpg"/></div>
+                    <h2>Sleeveless hoodie</h2>
+                    <p>Women's Sleeveless Nightmare Hoodie</p>
+                    <h3>Choose size:</h3>
+                    <div class="select">
+                        <select name="format" id="format">
+                        <option selected disabled>Size</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    </div>
+                 
+                    <a href="#"class="cta">add to cart</a>
+                </div>
+                <div class="merchandise-item">
+                    <div class="icon"><img src="./images/merch4.jpg"/></div>
+                    <h2>Women's Sleeveless</h2>
+                    <p>Women's Classic Death Bat Racer Tank</p>
+                    <h3>Choose size:</h3>
+                    <div class="select">
+                        <select name="format" id="format">
+                        <option selected disabled>Size</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    </div>
+                    
+                    <a href="#"class="cta">add to cart</a>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- End of merchandise section-->
+
+<!--album Section-->
+<section id="albums">
+    <div class="albums container">
+        <div class="albums-header">
+            <h1 class="section-title">Al<span>bums</span></h1>
+        </div>
+        <div class="all-albums">
+            <div class="album-item">
+                <div class="album-info">
+                    <h1>Album 1</h1>
+                    <h2>Waking The Fallen</h2>
+                    <h3>Released: August 26, 2003</h3><br>
+                    <p>Avenged Sevenfold's first studio album, Waking the Fallen, was released by Hopeless Records.
+                      
+
+                </div>
+                <div class="album-img">
+                    <img src="./images/waking-the-fallen.jpeg" alt="waking the fallen">
+                </div>
+            </div>
+            <div class="album-item">
+                <div class="album-info">
+                    <h1>Album 2 </h1>
+                    <h2>City Of Evil</h2>
+                    <h3>Released: June 6, 2005</h3><br>
+                    <p>City of Evil is the second studio album by American heavy metal band Avenged Sevenfold, through Warner Bros. Records.</p>
+
+                </div>
+                <div class="album-img">
+                    <img src="./images/city-of-evil.jfif" alt="city of evil">
+                </div>
+            </div>
+            <div class="album-item">
+                <div class="album-info">
+                    <h1>Album 3</h1>
+                    <h2>Avenged Sevenfold</h2>
+                    <h3>Released: October 30, 2007</h3><br>
+                    <p>Avenged Sevenfold's third studio album, also known as "The White Album", was released by Warner Bros. and Hopeless Records.</p>
+
+                </div>
+                <div class="album-img">
+                    <img src="./images/avenged-sevenfold.jpg" alt="album cover">
+                </div>
+            </div>
+            <div class="album-item">
+                <div class="album-info">
+                    <h1>Album 4</h1>
+                    <h2>Nightmare</h2>
+                    <h3>Released: July 27, 2010</h3><br>
+                    <p>Avenged Sevenfold Nightmare, is their fourth studio album. Warner Bros. Records. 
+                        </p>
+
+                </div>
+                <div class="album-img">
+                    <img src="./images/nightmare.jpg" alt="nightmare">
+                </div>
+            </div>
+            <div class="album-item">
+                <div class="album-info">
+                    <h1>Album 5</h1>
+                    <h2>The Stage</h2>
+                    <h3>Released: October 28, 2016</h3><br>
+                    <p>Avenged Sevenfold's fifth studio album, The Stage. It was released on Capitol Records and was their first release with the label.</p>
+
+                </div>
+                <div class="album-img">
+                    <img src="./images/the-stage-album.jpg" alt="the stage">
+                </div>
+            </div>
+            <div class="album-item">
+                <div class="album-info">
+                    <h1>Album 6</h1>
+                    <h2>The Unknown Waking</h2>
+                    <h3>Expected Release Date: June 22, 2022</h3><br>
+                    <p>The follow-up to 2016's The Stage, Avenged Sevenfold's sixth studio album, will be released in time for the band's return to the concert stage in summer 2022.</p>
+
+                </div>
+                <div class="album-img">
+                    <img src="./images/new-album.jpg" alt="new album">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End of album Section-->
+
+<!-- About Section-->
+<section id="about">
+    <div class="about container">
+        <div class="col-left">
+            <div class="about-img">
+                <img src="images/members.jfif" alt="img">
+            </div>
+        </div>
+        <div class="col-right">
+            <h1 class="section-title">About <span>Band</span></h1>
+            <h2>Avenged Sevenfold</h2>
+            <p>Consisting of 5 members, Avenged Sevenfold is an American heavy metal band from Huntington Beach, California, formed in 1999.</p>
+            <!-- <a href="#"class="cta">Listen now</a> -->
+        
+          <p><iframe src="https://open.spotify.com/embed/artist/0nmQIMXWTXfhgOBdNzhGOs" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>"</p>
+          <h3>Members:</h3>
+          <p>(From Left to Right): Zacky V (Rhythm guitarist), Brooks (Drummer), M. Shadows (Vocalist)
+            , Johnny Christ (Bassist), Syn Gates (Lead guitarist)
+          </p>
+        </div>
+    </div>
+</section>
+<!-- End of About Section-->
+
+
+<!--Contact Info-->
+<section id="contact">
+    <div class="contact container">
+        <div><h1 class="section-title">Contact <span>info</span></h1></div>
+        <div class="contact-items">
+            <div class="contact-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+                <div class="contact-info">
+                <h1>Phone</h1>
+                <h2>(212) 645-0555</h2>
+                <h2>+(65) 62353535</h2>
+            </div>
+        </div>
+        <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+            <div class="contact-info">
+            <h1>Email</h1>
+            <h2>chaewon@bookingent.com</h2>
+            <h2>hweiub@gmail.com</h2>
+        </div>
+    </div>
+    <div class="contact-item">
+        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+        <div class="contact-info">
+        <h1>ON TOUR</h1>
+        <h2>Rock Am Ring</h2>
+        <h2>Mendig, Germany</h2>
+    </div>
+</div>
+    </div>
+    </div>
+</section>
+<!-- End of Contact Section-->
+
+<!--FAQ-->
+<div id="overlay">
+    <form onsubmit="event.preventDefault(); validateForm()">
+        <h1>where should we tour next?</h1>>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+        <small class="error"></small>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Your Email">
+        <small class="error"></small>
+
+        <label for="message">Where should we tour next?:</label>
+        <textarea id="message" placeholder="Type in your city, and explain why!" rows="6"></textarea>
+        <small class="error"></small>
+
+        <div class="center">
+            <input type="submit" value="Send Message">
+            <p id="Success"></p>
+        </div>
+    </form>
+</div>
+<!-- End of FAQ-->
+
+<!-- Footer -->
+<section id="footer">
+    <div class="footer container">
+        <div class="brand"><h1><span>H</span>aziq <span>A</span>kid</h1></div>
+        <h2>WEEWUUU</h2>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="https://www.facebook.com/AvengedSevenfold"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"></a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.instagram.com/avengedsevenfold/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"></a>
+            </div>
+            <div class="social-item">
+                <a href="https://twitter.com/TheOfficialA7X?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"></a>
+            </div>
+            <div class="social-item">
+                <a href="https://www.youtube.com/user/avengedsevenfold"><img src="https://img.icons8.com/bubbles/100/000000/youtube.png"></a>
+            </div>
+        </div>
+        <p>Copyrights © 2021 Haziq. All rights reserved</p>
+    </div>
+</section>
+<!-- End of Footer -->
+<script src="./app.js"></script>
+</body>
+</html>
